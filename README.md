@@ -16,6 +16,23 @@ Este proyecto abarca el desarrollo de aplicaciones en Java, incluyendo sistemas 
 - Conexión a bases de datos con Hibernate y JDBC.  
 - Interfaces gráficas con JavaFX y Swing.  
 
+## Arquitectura
+
+```mermaid
+flowchart TD
+    A[Configurar DB - application.properties] --> B[Clonar repositorio]
+    B --> C[mvn spring-boot:run]
+    C --> D[Servidor en localhost:8080]
+    D --> E{Tipo de capa}
+    E --> F[JavaFX / Swing - Interfaz grafica]
+    E --> G[API REST - Spring Boot]
+    E --> H[Persistencia - Hibernate / JDBC]
+    G --> I[Endpoints REST]
+    H --> J[(MySQL / PostgreSQL)]
+    F --> I
+    I --> K[Respuesta al cliente]
+```
+
 ## 🚀 Tecnologías utilizadas  
 - Java  
 - Spring Boot  
@@ -35,23 +52,6 @@ Este proyecto abarca el desarrollo de aplicaciones en Java, incluyendo sistemas 
 👨‍💻 **Alejandro De Mendoza**
 
 ---
-
-## Arquitectura
-
-```mermaid
-flowchart TD
-    A[Configurar DB - application.properties] --> B[Clonar repositorio]
-    B --> C[mvn spring-boot:run]
-    C --> D[Servidor en localhost:8080]
-    D --> E{Tipo de capa}
-    E --> F[JavaFX / Swing - Interfaz grafica]
-    E --> G[API REST - Spring Boot]
-    E --> H[Persistencia - Hibernate / JDBC]
-    G --> I[Endpoints REST]
-    H --> J[(MySQL / PostgreSQL)]
-    F --> I
-    I --> K[Respuesta al cliente]
-```
 
 ## Autor
 
