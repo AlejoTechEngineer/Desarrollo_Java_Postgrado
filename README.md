@@ -1,6 +1,13 @@
+<div align="center">
+
 # 📌 Desarrollo Java Postgrado  
 
-## 📖 Descripción  
+## 📖 Descripción
+
+</div>
+
+---
+
 Este proyecto abarca el desarrollo de aplicaciones en Java, incluyendo sistemas de escritorio, APIs REST y conexiones con bases de datos.
 
 ## 🛠️ Funcionalidades  
@@ -26,3 +33,12 @@ Este proyecto abarca el desarrollo de aplicaciones en Java, incluyendo sistemas 
 
 ## 📌 Autor  
 👨‍💻 **Alejandro De Mendoza**
+
+---
+
+## Autor
+
+**Alejandro De Mendoza**  
+Ingeniero Informático · Especialista en IA · Especialista en Ingeniería de Software · Máster en Arquitectura de Software
+
+[![GitHub](https://img.shields.io/badge/GitHub-AlejoTechEngineer-181717?style=for-the-badge&logo=github)](https://github.com/AlejoTechEngineer)
